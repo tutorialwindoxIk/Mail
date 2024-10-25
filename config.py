@@ -9,7 +9,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "21546320"))
 API_HASH = getenv("API_HASH", "c16805d6f2393d35e7c49527daa317c7")
 BOT_PRIVACY = getenv("BOT_PRIVACY", "https://telegra.ph/Privacy-Policy-for-AnieXEricaMusic-10-06")
-BOT_TOKEN = getenv("BOT_TOKEN", "7552611052:AAFcwyamrDgxL2Bi4bcpHFrXYnZ8zUPXfPg")
+BOT_TOKEN = getenv("BOT_TOKEN", "7312074776:AAEtduPDKgHXjxfmchFNkbdwn4M7mkqTzzs")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Somu:Somu@somu.xbkiklu.mongodb.net/?retryWrites=true&w=majority&appName=Somu")
 
