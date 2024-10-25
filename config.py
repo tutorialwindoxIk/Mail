@@ -6,8 +6,8 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "6435225"))
-API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d")
+API_ID = int(getenv("API_ID", "21546320"))
+API_HASH = getenv("API_HASH", "c16805d6f2393d35e7c49527daa317c7")
 BOT_PRIVACY = getenv("BOT_PRIVACY", "https://telegra.ph/Privacy-Policy-for-AnieXEricaMusic-10-06")
 BOT_TOKEN = getenv("BOT_TOKEN", "7552611052:AAFcwyamrDgxL2Bi4bcpHFrXYnZ8zUPXfPg")
 
