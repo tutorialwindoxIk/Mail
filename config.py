@@ -6,12 +6,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "21546320"))
-API_HASH = getenv("API_HASH", "c16805d6f2393d35e7c49527daa317c7")
+API_ID = int(getenv("API_ID", "28228075"))
+API_HASH = getenv("API_HASH", "785f20222ea7de471d714c1d563c59df")
 BOT_PRIVACY = getenv("BOT_PRIVACY", "https://telegra.ph/Privacy-Policy-for-AnieXEricaMusic-10-06")
-BOT_TOKEN = getenv("BOT_TOKEN", "7312074776:AAEtduPDKgHXjxfmchFNkbdwn4M7mkqTzzs")
+BOT_TOKEN = getenv("BOT_TOKEN", "7398714280:AAGUwwRo8qXwgvR813Pu2_hGRIOeQEOQgmM")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Somu:Somu@somu.xbkiklu.mongodb.net/?retryWrites=true&w=majority&appName=Somu")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://manoranjanhor43:somuxd@manoranjan.wsglmdq.mongodb.net/?retryWrites=true&w=majority&appName=Manoranjan")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
@@ -42,7 +42,7 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 5242880000))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 5242880000))
 
-STRING1 = getenv("STRING_SESSION", "BQHHpwsAtQE_yZqb-_qjp6wCJeuaJIZ57rfwyJT4wJeRTLGo-KTL6igAZtBRNyBK89hVidGY8wsHEBrmWcntobNYMPtoiDd8PoBwMxVwCN2A9-tigk5QHzSqVg2FGAC7DJArYX0LcneZTVAve-wIdlU3yM4aWJ7J5Kvyx3jrQnWVR_pPyaVgnA43GJW4yl7kuLTbEIuDos5yUAuMHetqT9naTGAtohH0cwmquDlVyWWAnOo7hHz2tCh9KvplozvEEwfb8TczCIp6GyoQeR11k2hSSfuLII8wkuu2V2gLAZA_LDan8nYhKAcuFgdSkJwl0iQVTjaM99GOVakK9ec9H-xmK11tYgAAAAHRUWCBAA")
+STRING1 = getenv("STRING_SESSION", "BQGuuesAw2xAt-m-XorrIApYRPKVeyHVsVQ9wPRitnVo_0SsZfafrKgoiWX-K_KlqeYX_3LwhWmfzhX3F70Ss4CCDfD_fd8TmwD62sAuqPiEnkcGQyyxM8WstHBi6qy5nsc2zXGq6aIR6ThTbXPMt2c-M5G8fMqejiWwnUe7EbyoXxcUyzXB2m6vb_4tBpcVghOFCr3GY95s9VQjRQLFNZw_TQCExbfsWTA288JlsLkzNel4hb-OqiEAhQuHgwPYiMO99s4YvWZkQJ_KjG-Nu7_QDt86D4TyQlnx7jkSerw6anyzWglYQ5nSQ8syAxjle9RK8sBbtYh5HiqGyTEdPfzXsKJ3xwAAAAHUG3e7AA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
