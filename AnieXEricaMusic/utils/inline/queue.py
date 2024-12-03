@@ -1,4 +1,5 @@
 from typing import Union
+
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 
@@ -16,6 +17,10 @@ def queue_markup(
                 text=_["QU_B_1"],
                 callback_data=f"GetQueued {CPLAY}|{videoid}",
             ),
+            InlineKeyboardButton(
+                text=_["CLOSE_BUTTON"],
+                callback_data="close",
+            ),
         ]
     ]
     dur = [
@@ -29,6 +34,10 @@ def queue_markup(
             InlineKeyboardButton(
                 text=_["QU_B_1"],
                 callback_data=f"GetQueued {CPLAY}|{videoid}",
+            ),
+            InlineKeyboardButton(
+                text=_["CLOSE_BUTTON"],
+                callback_data="close",
             ),
         ],
     ]
@@ -44,6 +53,10 @@ def queue_back_markup(_, CPLAY):
                     text=_["BACK_BUTTON"],
                     callback_data=f"queue_back_timer {CPLAY}",
                 ),
+                InlineKeyboardButton(
+                    text=_["CLOSE_BUTTON"],
+                    callback_data="close",
+                ),
             ]
         ]
     )
@@ -51,5 +64,12 @@ def queue_back_markup(_, CPLAY):
 
 
 def aq_markup(_, chat_id):
-    buttons = []
+    buttons = [
+        [
+            InlineKeyboardButton(
+                    text=_["CLOSE_BUTTON"],
+                    callback_data="close",
+            ),
+        ],
+    ]
     return buttons
