@@ -171,7 +171,7 @@ HELP_17 = """
 <code>/addpro @alone_somu6</code>
 
 <code>/rmpro</code> :ʀᴇᴘʟᴀʏ ᴛᴏ ᴜꜱᴇʀ/ᴜꜱᴇʀɪᴅ/ᴜꜱᴇʀɴᴀᴍᴇ.(ᴏᴡɴᴇʀ)
-<code>/addpro @alone_somu6</code>
+<code>/addpro @alone_somu6 7</code>
 
 <code>/prolists</code> : ɢᴇᴛ ᴀʟʟ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ᴜꜱᴇʀꜱ ʟɪꜱᴛꜱ.
 """
