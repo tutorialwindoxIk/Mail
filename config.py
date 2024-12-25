@@ -6,10 +6,10 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "28588693"))
+API_HASH = getenv("API_HASH", "fac94f1f1aa4aa395280a670ddf9c0f2")
 BOT_PRIVACY = getenv("BOT_PRIVACY", "https://telegra.ph/Privacy-Policy-for-AnieXEricaMusic-10-06")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "7398714280:AAEmgVeDp5gEGStQsmFZygwyWbPNw4OTxS4")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://manoranjanhor43:somuxd@manoranjan.wsglmdq.mongodb.net/?retryWrites=true&w=majority&appName=Manoranjan")
 
@@ -42,7 +42,7 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 5242880000))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 5242880000))
 
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BQG0OpUANd1IrjyLeQSyQwWs4eqADmrkDJM9KFGwQm1vx0Q0yIiZBoDweMIhVZOQKXePc5UL6LFk9t8Qc5qhNVicx2rpzi09WHBblV0xbPEFok8gqjPlX5SEMkRRT_lfXniBm25MkMA7fcY6gWMdPvL_FLMSPnDx5gbmLBB9lu8vp5wWmF_i5b8aBqJGauQyX14ITuefZPoWTB9E5UIVhCOSueg3ykWP9EviM7ixut5_BR9eMnwdfwsvljpSIxuPlUPAIEdLdpwSgLkQLs-u9Uhvk8iIhDIRTR5xYGGO2cO1z4kbvkdRkSlYdCB5pSpVnJuXV2DUg6rlAwRwACuPXN2uhNhGawAAAAGbzo9oAA")
 STRING2 = getenv("STRING_SESSION2", "")
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
