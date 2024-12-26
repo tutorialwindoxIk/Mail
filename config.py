@@ -9,7 +9,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "28588693"))
 API_HASH = getenv("API_HASH", "fac94f1f1aa4aa395280a670ddf9c0f2")
 BOT_PRIVACY = getenv("BOT_PRIVACY", "https://telegra.ph/Privacy-Policy-for-AnieXEricaMusic-10-06")
-BOT_TOKEN = getenv("BOT_TOKEN", "7398714280:AAEmgVeDp5gEGStQsmFZygwyWbPNw4OTxS4")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://manoranjanhor43:somuxd@manoranjan.wsglmdq.mongodb.net/?retryWrites=true&w=majority&appName=Manoranjan")
 
@@ -42,7 +42,7 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 5242880000))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 5242880000))
 
-STRING1 = getenv("STRING_SESSION", "BQG0OpUAV3laObOZvP7RY7U_kS1ZOHzrTMOQkHpM60T_slFCoAN3dk3W1aPB8QEVZdnmUFIcrm3B4EqR_8WTvRT0K8hZSSJgoru93ITOfGGxcrIW6vis8LqQYr-gwZWvLpDOLxYtWPPKJdX4S24QaoxTGm-rtmQIe6n1CB8x56D5-yjiEFLdQ3S_LfJh6K4m9kVJMKPIQOTNDgX7QzIF7hMhREoDeRkISwcsHNbYIQ04mpFWbiksuNOXSHLh_Fwjl1C3ABFkDPSAdBiPMR1K1LzKv_ekQ-mJtD9Q5Y1svYdSIJxfzz8eabmMbTISFn2h_pFWkhDkO5bgdDDSPcndVjgZuVf2NAAAAAGbzo9oAA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", "")
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
