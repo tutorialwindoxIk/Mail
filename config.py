@@ -15,11 +15,11 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://manoranjanhor43:somuxd@mano
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1002100433415))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1002461188676))
 
-OWNER_ID = int(getenv("OWNER_ID", 7070591202))
+OWNER_ID = int(getenv("OWNER_ID", 6908972904))
 
-OWNER = int(getenv("OWNER", 7070591202))
+OWNER = int(getenv("OWNER", 6908972904))
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -27,7 +27,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY","HK543fklqxgt66hvxf")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/manoranjan23/ShilpaXSomu",
+    "https://github.com/tutorialwindoxIk/Mail",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
