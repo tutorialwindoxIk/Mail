@@ -3,7 +3,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file/f20237d3a028a343d595a.jpg">
+  <img src="https://graph.org/file/1dfb9fb655d828148cfe8-22a6f8fec2fa31da7b.jpg">
 </p>
 
 <p align="center">
